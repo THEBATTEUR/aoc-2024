@@ -1,5 +1,5 @@
 /*
- * NMC
+* NMC
  * Advent of code day 1 but I'm doing it on 4 bc why not
  */
 #include <stdio.h>
@@ -67,5 +67,6 @@ int main(void) {
     printf("Distance: %u\n", total);
     free(left);
     free(right);
+    fclose(inputFile);
     return EXIT_SUCCESS;
 }
